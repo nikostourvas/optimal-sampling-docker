@@ -1,2 +1,2 @@
-# forest_popgen
-A docker repo for the analysis of population genetics data
+# optimal-sampling-docker
+A docker repo recommended for use in conjuction with https://github.com/nikostourvas/optimal_sampling
