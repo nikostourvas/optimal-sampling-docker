@@ -16,5 +16,9 @@ RUN rm -rf /tmp/*.rds \
     popprxl \
     mmod \
     RColorBrewer \ 
-    hierfstat \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+
+RUN installGithub.r \
+  nikostourvas/hierfstat \
+  && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+ 
